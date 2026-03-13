@@ -10,6 +10,7 @@
         </div>
         <div class="p-2">
           <%= f.label :password %>
+          <%= link_to "forgot password", new_password_reset_path %>
           <%= f.password_field :password, class: "form-control" %>
         </div>
           <%= f.label :remember_me, class: "checkbox inline" do %>
